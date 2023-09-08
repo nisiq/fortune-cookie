@@ -1,0 +1,30 @@
+React Native é um projeto desenvolvido pelos engenheiros do  Facebook e que consiste em uma série de ferramentas que viabilizam a  criação de aplicações móveis
+
+O ECMAScript6 é a evolução do javaScript, ela tem como foco:
+- Ser uma linguagem melhor para construir aplicações complexas
+- Resolver problemas antigos do JavaScript
+- Facilidade no desenvolvimento de libraries
+
+
+
+PROPS = PROPRIEDADES
+
+
+
+
+- DIVIDIR ESPAÇOS ENTRE VARIOS COMPONENTES
+function App(){
+  return (
+    <View style={{flex: 1, backgroundColor: '#222'}}>
+      <View style={{flex: 1, backgroundColor: 'blue'}}></View>
+      <View style={{flex: 1, backgroundColor: 'green'}}></View>
+      <View style={{flex: 1, backgroundColor: 'yellow'}}></View>
+    </View>
+
+  );
+
+- FLEXBOX E ALINHAMENTOS
+    <View style={{flex: 1, flexDirection: 'row', justifyContent: 'space-around', alignItems: 'center'}}>
+
+
+
